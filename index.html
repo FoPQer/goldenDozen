@@ -13,39 +13,36 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <div class="container-fluid position-fixed">
+    <div class="container-fluid position-fixed" style="z-index: 2">
         <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
                 <div class="navbar-collapse d-flex justify-content-between"
                      id="navbarSupportedContent">
                     <div class="d-flex col-lg-6 col-10 py-3" style="margin-left: 3%">
                         <div class="me-2">
-                            <img id="logo" src="imgs/logo.png" alt="logo" style="width: 59px; height: 65px">
+                            <img id="logo" src="imgs/logo.png" alt="logo">
                         </div>
                         <div id="RTU" style="margin-left: 4%">
-                            <span class="pr-k" style="text-transform: uppercase; font-weight: bold">
+                            <strong class="pr-k text-uppercase">
                                 Приёмная комиссия
-                            </span>
+                            </strong>
                             <span class="xxs d-block">МИРЭА &mdash; Российский технологический университет</span>
                         </div>
                     </div>
                     <div class="d-none d-lg-block">
                         <ul class="navbar-nav">
                             <li class="nav-item me-4">
-                                <a href="https://priem.mirea.ru/lk" target="_blank" class="text-black"
-                                   style="text-decoration: none">
+                                <a href="https://priem.mirea.ru/lk" target="_blank" class="text-black text-decoration-none">
                                     Личный кабинет
                                 </a>
                             </li>
                             <li class="nav-item me-4">
-                                <a href="https://priem.mirea.ru/contacts" target="_blank" class="text-black"
-                                   style="text-decoration: none">
+                                <a href="https://priem.mirea.ru/contacts" target="_blank" class="text-black text-decoration-none">
                                     Контакты
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://priem.mirea.ru/" target="_blank" class="text-black"
-                                   style="text-decoration: none">
+                                <a href="https://priem.mirea.ru/" target="_blank" class="text-black text-decoration-none">
                                     На сайт Приёмной комиссии
                                 </a>
                             </li>
@@ -157,13 +154,16 @@
             </nav>
         </div>
     </div>
-    <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="d-none d-lg-block">
+    <div class="pt-6r"></div>
+    <nav style="--bs-breadcrumb-divider: '>'; z-index: 1" aria-label="breadcrumb" class="d-none d-lg-block position-relative">
         <div class="d-flex justify-content-between">
             <ol class="breadcrumb m-0 py-xl-2" style="padding-left: 3rem">
                 <li class="breadcrumb-item">
                     <a href="https://priem.mirea.ru/" class="text-decoration-none text-info">Приёмная комиссия</a>
                 </li>
-                <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-info">Школьникам</a></li>
+                <li class="breadcrumb-item">
+                    <a href="#" class="text-decoration-none text-info">Школьникам</a>
+                </li>
                 <li class="breadcrumb-item">
                     <a href="https://priem.mirea.ru/olympiads" class="text-decoration-none text-info">Олимпиады</a>
                 </li>
@@ -171,8 +171,7 @@
                     9, 10 и 11 классов</li>
             </ol>
             <div class="bg-info d-flex align-items-center text-center">
-                <a class="text-decoration-none px-2" href="https://priem.mirea.ru/olympiads"
-                   target="_blank" style="color: #FFFFFF">
+                <a class="text-decoration-none px-2 text-white" href="https://priem.mirea.ru/olympiads" target="_blank">
                     Вернуться в Гид по олимпиадам
                 </a>
             </div>
@@ -199,15 +198,15 @@
             </div>
         </div>
     </div>
-    <div class="mb-5 text-center">
-        <a style="padding: 1rem 2rem; color: #FFFFFF" href="https://priem.mirea.ru/lk/olymp" target="_blank"
-           class="btn-info text-center fs-3 text-decoration-none">
+    <div class="pb-5 text-center">
+        <a style="padding: 1rem 2rem" href="https://priem.mirea.ru/lk/olymp" target="_blank"
+           class="btn-info text-center text-white fs-3 text-decoration-none">
             Регистрация
         </a>
     </div>
     <div>
         <h1 class="pb-5 text-uppercase text-center"><strong>календарь конкурса</strong></h1>
-        <a class="accordion-button d-flex py-4 mb-1 collapsed pb text-decoration-none position-static"
+        <a class="accordion-button d-flex py-4 mb-1 collapsed pb text-decoration-none"
            data-bs-toggle="collapse" data-bs-target="#zaoch" aria-expanded="true" aria-controls="collapseExample"
            href="#" style="background-color: #FFCC00">
             <div class="container-md">
@@ -241,7 +240,7 @@
                 </span>
             </div>
         </div>
-        <a class="accordion-button d-flex py-4 collapsed pb text-decoration-none position-static" id="za" data-bs-toggle="collapse"
+        <a class="accordion-button d-flex py-4 collapsed pb text-decoration-none" id="za" data-bs-toggle="collapse"
            data-bs-target="#zacl" aria-expanded="true" aria-controls="collapseExample" href="#"
            style="background-color: #40B8FC;">
             <div class="container-md">
@@ -264,55 +263,55 @@
     <div class="container-fluid py-5">
         <div class="row pb-2">
             <div class="col-md-6 d-flex align-items-center justify-content-center" style="background-color: #9B51E0">
-                <ins class="text-uppercase text-center py-4 fs-1" style="color: white;"><strong>О конкурсе</strong></ins>
+                <ins class="text-uppercase text-center py-4 fs-1 text-white"><strong>О конкурсе</strong></ins>
             </div>
             <div class="col-md-6 d-none d-md-flex justify-content-center align-items-center"
                 style="height: 200px; background: url(imgs/MaskGroup4.png); background-position: center">
                 <a href="https://priem.mirea.ru/olymp-2022/?module=about" target="_blank"
-                   class="fs-5 px-4 py-3 text-decoration-none" style="background-color: #9B51E0; color: white;">Узнать больше</a>
+                   class="fs-5 px-4 py-3 text-decoration-none text-white" style="background-color: #9B51E0">Узнать больше</a>
             </div>
             <div class="col-md-6 d-flex d-md-none justify-content-center align-items-center"
                  style="height: 100px; background: url(imgs/MaskGroup4.png); background-position: center">
                 <a href="https://priem.mirea.ru/olymp-2022/?module=about" target="_blank"
-                   class="fs-5 px-4 py-3 text-decoration-none" style="background-color: #9B51E0; color: white;">Узнать больше</a>
+                   class="fs-5 px-4 py-3 text-decoration-none text-white" style="background-color: #9B51E0">Узнать больше</a>
             </div>
         </div>
         <div class="row mb-2">
             <div class="col-md-6 d-flex align-items-center justify-content-center" style="background-color: #27AE60;">
-                <ins class="text-uppercase text-center py-4 fs-1" style="color: white;">
+                <ins class="text-uppercase text-center py-4 fs-1 text-white">
                     <strong>Расписание выступлений финала</strong>
                 </ins>
             </div>
             <div class="col-md-6 d-none d-md-flex justify-content-center align-items-center"
                 style="height: 200px; background: url(imgs/MaskGroup5.png); background-position: center">
                 <a href="https://priem.mirea.ru/olymp-2022/?module=old_tasks" target="_blank"
-                   class="fs-5 px-4 py-3 text-decoration-none" style="background-color: #27AE60; color: white;">Узнать больше</a>
+                   class="fs-5 px-4 py-3 text-decoration-none text-white" style="background-color: #27AE60">Узнать больше</a>
             </div>
             <div class="col-md-6 d-md-none d-flex justify-content-center align-items-center"
                  style="height: 100px; background: url(imgs/MaskGroup5.png); background-position: center">
                 <a href="https://priem.mirea.ru/olymp-2022/?module=old_tasks" target="_blank"
-                   class="fs-5 px-4 py-3 text-decoration-none" style="background-color: #27AE60; color: white;">Узнать больше</a>
+                   class="fs-5 px-4 py-3 text-decoration-none text-white" style="background-color: #27AE60">Узнать больше</a>
             </div>
         </div>
         <div class="row mb-2">
             <div class="col-md-6 d-flex align-items-center justify-content-center" style="background-color: #FFCC00;">
-                <ins class="text-uppercase text-center py-4 fs-1" style="color: white;"><strong>Результаты</strong></ins>
+                <ins class="text-uppercase text-center py-4 fs-1 text-white"><strong>Результаты</strong></ins>
             </div>
             <div class="col-md-6 d-none d-md-flex justify-content-center align-items-center"
                 style="height: 200px; background: url(imgs/MaskGroup6.png); background-position: center">
                 <a href="https://priem.mirea.ru/olymp-2022/?module=results" target="_blank"
-                   class="fs-5 px-4 py-3 text-decoration-none" style="background-color: #FFCC00; color: white;">Узнать больше</a>
+                   class="fs-5 px-4 py-3 text-decoration-none text-white" style="background-color: #FFCC00">Узнать больше</a>
             </div>
             <div class="col-md-6 d-md-none d-flex justify-content-center align-items-center"
                  style="height: 100px; background: url(imgs/MaskGroup6.png); background-position: center">
                 <a href="https://priem.mirea.ru/olymp-2022/?module=results" target="_blank"
-                   class="fs-5 px-4 py-3 text-decoration-none" style="background-color: #FFCC00; color: white;">Узнать больше</a>
+                   class="fs-5 px-4 py-3 text-decoration-none text-white" style="background-color: #FFCC00">Узнать больше</a>
             </div>
         </div>
     </div>
     <div class="mb-5 text-center">
-        <a style="padding: 1rem 2rem; color: #FFFFFF" href="https://priem.mirea.ru/lk/olymp" target="_blank"
-           class="btn-info text-center fs-3 text-decoration-none">
+        <a style="padding: 1rem 2rem" href="https://priem.mirea.ru/lk/olymp" target="_blank"
+           class="btn-info text-center fs-3 text-decoration-none text-white">
             Регистрация
         </a>
     </div>

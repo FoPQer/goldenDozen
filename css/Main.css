@@ -44,3 +44,7 @@
 .foot:hover{
     text-decoration: underline!important;
 }
+
+.pt-6r{
+    padding-top: 6rem;
+}
