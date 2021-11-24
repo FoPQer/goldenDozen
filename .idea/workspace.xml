@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab8f6a43-6efe-4f66-ad10-7fdc8fcdb5c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +84,8 @@
       <workItem from="1637524173693" duration="3343000" />
       <workItem from="1637605641103" duration="283000" />
       <workItem from="1637606315352" duration="4789000" />
+      <workItem from="1637673591253" duration="2135000" />
+      <workItem from="1637675891432" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="Патч 0.2">
       <created>1635591706848</created>
@@ -169,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637672667118</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Патч 0.3">
+      <created>1637675030021</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637675030021</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Патч 0.4">
+      <created>1637675691393</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1637675691393</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,25 +205,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Патч 0.3" />
-    <MESSAGE value="Патч 0.4" />
     <MESSAGE value="Патч 0.7" />
     <MESSAGE value="Патч 0.9" />
     <MESSAGE value="Релиз" />
     <MESSAGE value="Патч 0.1" />
     <MESSAGE value="Патч 0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Патч 0.2" />
+    <MESSAGE value="Патч 0.3" />
+    <MESSAGE value="Патч 0.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Патч 0.4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="518" y="250" key="#Web_Browsers" timestamp="1637226824483">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="518" y="250" key="#Web_Browsers/0.0.1440.920@0.0.1440.920" timestamp="1637226824483" />
-    <state x="417" y="219" key="Vcs.Push.Dialog.v2" timestamp="1637672671785">
+    <state x="417" y="219" key="Vcs.Push.Dialog.v2" timestamp="1637675694548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1637610209369" />
-    <state x="417" y="219" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1637672671785" />
+    <state x="417" y="219" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1637675694548" />
     <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635852013614">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
